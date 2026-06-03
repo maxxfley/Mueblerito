@@ -1,104 +1,94 @@
-# \# Diseño inicial de la base de datos
+# Diseño inicial de la base de datos
 
-# 
+ 
 
-# \## Tabla productos
+## Tabla productos
 
-# 
 
-# \* id
+* id
 
-# \* nombre
+* nombre
 
-# \* categoria
+* categoria
 
-# \* cantidad\_actual
+* cantidad\_actual
 
-# \* unidad\_medida
+* unidad\_medida
 
-# \* medidas
+* medidas
 
-# \* descripcion
+* descripcion
 
-# \* precio\_compra
+* precio\_compra
 
-# \* precio\_venta
+* precio\_venta
 
-# \* ubicacion\_id
+* ubicacion\_id
 
-# 
 
-# \## Tabla ubicaciones
+## Tabla ubicaciones
 
-# 
 
-# \* id
+* id
 
-# \* nombre
+* nombre
 
-# \* tipo
+* tipo
 
-# 
 
-# \## Tabla movimientos\_stock
+## Tabla movimientos\_stock
 
-# 
 
-# \* id
+* id
 
-# \* producto\_id
+* producto\_id
 
-# \* tipo\_movimiento
+* tipo\_movimiento
 
-# \* cantidad
+* cantidad
 
-# \* fecha
+* fecha
 
-# \* ubicacion\_id
+* ubicacion\_id
 
-# \* detalles
+* detalles
 
-# 
 
-# \## Tabla pedidos
+## Tabla pedidos
 
-# 
 
-# \* id
+* id
 
-# \* cliente
+* cliente
 
-# \* telefono
+* telefono
 
-# \* fecha\_creacion
+* fecha\_creacion
 
-# \* fecha\_estimada
+* fecha\_estimada
 
-# \* estado
+* estado
 
-# \* sena
+* sena
 
-# \* precio\_total
+* precio\_total
 
-# \* saldo\_pendiente
+* saldo\_pendiente
 
-# \* observaciones
+* observaciones
 
-# 
 
-# \## Tabla pedido\_detalles
+## Tabla pedido\_detalles
 
-# 
+* id
 
-# \* id
+* pedido\_id
 
-# \* pedido\_id
+* producto\_id
 
-# \* producto\_id
+* cantidad
 
-# \* cantidad
-
-# \* medidas
+* medidas
 
 # \* observaciones
 
