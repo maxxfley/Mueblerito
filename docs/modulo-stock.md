@@ -1,52 +1,42 @@
-# \# Módulo Stock
+# Módulo Stock
 
-# 
+## Objetivo
 
-# \## Objetivo
+### Permitir registrar y controlar los productos e insumos de la mueblería/carpintería.
+ 
 
-# 
+## Funcionalidades iniciales
 
-# Permitir registrar y controlar los productos e insumos de la mueblería/carpintería.
 
-# 
+* Crear producto.
 
-# \## Funcionalidades iniciales
+* Editar producto.
 
-# 
+* Eliminar producto.
 
-# \* Crear producto.
+* Consultar producto.
 
-# \* Editar producto.
+* Ver listado de productos.
 
-# \* Eliminar producto.
+* Registrar ingresos de stock.
 
-# \* Consultar producto.
+* Registrar salidas de stock.
 
-# \* Ver listado de productos.
+* Registrar ventas.
 
-# \* Registrar ingresos de stock.
+* Consultar disponibilidad por sucursal.
 
-# \* Registrar salidas de stock.
+* Mostrar alertas de stock bajo.
 
-# \* Registrar ventas.
 
-# \* Consultar disponibilidad por sucursal.
+## Objetivos de negocio
 
-# \* Mostrar alertas de stock bajo.
 
-# 
+* Conocer la disponibilidad real de productos.
 
-# \## Objetivos de negocio
+* Evitar llamadas entre sucursales para consultar stock.
 
-# 
+* Centralizar la información.
 
-# \* Conocer la disponibilidad real de productos.
-
-# \* Evitar llamadas entre sucursales para consultar stock.
-
-# \* Centralizar la información.
-
-# \* Reducir errores de coordinación.
-
-# 
+* Reducir errores de coordinación.
 
