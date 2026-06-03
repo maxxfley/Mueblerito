@@ -4,14 +4,14 @@
 - Categoría.
 - Cantidad.
 - Unidad de medida.
+- Medidas
 - Descripción del producto.
 - Precio de venta.
 - Precio de compra.
 
 ## ¿Qué categorías existirían?
 
-- Material.
-- Tipo de producto.
+- Productos/muebles terminados.
 - Insumos.
 
 ## ¿Qué tipo de unidades?
@@ -27,10 +27,11 @@
 - Ingresos.
 - Salidas.
 - Historial. (Fecha, movimiento, motivo, cantidad, detalles del movimiento, quién lo hizo.)
+- Ubicacion.
 
 ## Descripción del producto.
 
 - ¿Qué es?
 - ¿Para que sirve?
 - ¿De qué está hecho?
-
+- ¿En donde se encuentra?

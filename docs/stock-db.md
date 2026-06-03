@@ -6,11 +6,16 @@
 - Nombre.
 - Categoria.
 - Cantidad_actual.
-- Unidades
-- medida
-- Descripción
-- Precio_compra
-- Precio_venta
+- Unidades.
+- medida.
+- Descripción.
+- Precio_compra.
+- Precio_venta.
+
+## tabla de ubicaciones:
+
+- ID
+- Nombre_sucursal
 
 ## Tabla de movimientos_stock:
 
@@ -19,9 +24,8 @@
 - Tipo_movimiento.
 - Cantidad.
 - Fecha.
-- Motivo.
+- Ubicación.
 - Detalles.
-- Usuario.
-
+- Sucursal_movimiento.
 
 
