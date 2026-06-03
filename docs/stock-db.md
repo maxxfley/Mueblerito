@@ -1,31 +1,106 @@
-# Diseño inicial de la base de datos de Stock
+# \# Diseño inicial de la base de datos
 
-## Tabla de productos:
+# 
 
-- ID.
-- Nombre.
-- Categoria.
-- Cantidad_actual.
-- Unidades.
-- medida.
-- Descripción.
-- Precio_compra.
-- Precio_venta.
+# \## Tabla productos
 
-## tabla de ubicaciones:
+# 
 
-- ID
-- Nombre_sucursal
+# \* id
 
-## Tabla de movimientos_stock:
+# \* nombre
 
-- ID.
-- Producto_id.
-- Tipo_movimiento.
-- Cantidad.
-- Fecha.
-- Ubicación.
-- Detalles.
-- Sucursal_movimiento.
+# \* categoria
 
+# \* cantidad\_actual
+
+# \* unidad\_medida
+
+# \* medidas
+
+# \* descripcion
+
+# \* precio\_compra
+
+# \* precio\_venta
+
+# \* ubicacion\_id
+
+# 
+
+# \## Tabla ubicaciones
+
+# 
+
+# \* id
+
+# \* nombre
+
+# \* tipo
+
+# 
+
+# \## Tabla movimientos\_stock
+
+# 
+
+# \* id
+
+# \* producto\_id
+
+# \* tipo\_movimiento
+
+# \* cantidad
+
+# \* fecha
+
+# \* ubicacion\_id
+
+# \* detalles
+
+# 
+
+# \## Tabla pedidos
+
+# 
+
+# \* id
+
+# \* cliente
+
+# \* telefono
+
+# \* fecha\_creacion
+
+# \* fecha\_estimada
+
+# \* estado
+
+# \* sena
+
+# \* precio\_total
+
+# \* saldo\_pendiente
+
+# \* observaciones
+
+# 
+
+# \## Tabla pedido\_detalles
+
+# 
+
+# \* id
+
+# \* pedido\_id
+
+# \* producto\_id
+
+# \* cantidad
+
+# \* medidas
+
+# \* observaciones
+
+# 
 
