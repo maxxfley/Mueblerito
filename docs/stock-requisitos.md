@@ -17,7 +17,6 @@
 ## ¿Qué tipo de unidades?
 
 - x Metros.
-- x Metros cuadrados.
 - x Unidades.
 - x Kg.
 - x Litros.
