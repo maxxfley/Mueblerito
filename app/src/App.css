@@ -89,3 +89,43 @@ aside a {
 .estado-Entregado {
   background: #e2e3e5;
 }
+
+.pedido-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.pedido-form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 180px;
+}
+
+.pedido-form button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.producto-linea {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.producto-linea select,
+.producto-linea input {
+  padding: 10px;
+}
+
+.resumen-pedido {
+  display: flex;
+  gap: 20px;
+  margin: 15px 0;
+  font-size: 18px;
+}
+.producto-linea input {
+  width: 70px !important;
+}
